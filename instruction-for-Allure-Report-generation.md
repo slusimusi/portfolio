@@ -51,3 +51,5 @@ export default defineConfig({
 5. While running, check that you have an `allure-results` directory in your project.
 6. Generate a report via the command `allure serve allure-results`.
 7. After generating a report, check your browser.
+
+**_NOTE:_** The year of writing is 2025.

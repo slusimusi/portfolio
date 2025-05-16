@@ -26,3 +26,5 @@ Confirm your email address.
 1. Go to your mailbox
 1. Open the letter with the “Confirm your email address” header
 1. Click the “Confirm email address” button.
+
+**_NOTE:_** The year of writing is 2021.
