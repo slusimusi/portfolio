@@ -9,3 +9,4 @@ In this repository, you can see some examples of technical documentation written
 - [Description of Lingua Hover extension](./description-of-a-browser-extension.md). I wrote this text for the [extension](https://chromewebstore.google.com/detail/lingua-hover/aalcfhiolhdbomeemcbppffcjjhnchin?hl=en-US&utm_source=ext_sidebar).
 - [Text about working of RTK](./text-about-rtk-working.md). It is a test task for Emlid.
 - [Text about Allure Report generation](./instruction-for-Allure-Report-generation.md). This text is a test task for Qameta Software.
+- [User guide for the process of making an online payment](./how-to-make-an-online-payment.md). This text is a test task for Qameta Software.
