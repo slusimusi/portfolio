@@ -1,6 +1,6 @@
-# How to make a mobile topup
+# How to make an online payment
 
-With this user guide, you learn how to pay online.
+With this user guide, you learn how to make an online payment.
 
 As a reference, we use the process of making a mobile top-up in [the Credo Bank mobile app](https://credobank.ge/en/services/internet-mobile-bank).
 
