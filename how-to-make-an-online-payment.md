@@ -1,54 +1,73 @@
+<style>
+    .section {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+</style>
+
 # How to make a mobile topup
 
 With this user guide, you learn how to pay online.
 
-As a reference, we use the process of making a mobile topup in [the Credo Bank mobile app](https://credobank.ge/en/services/internet-mobile-bank).
+As a reference, we use the process of making a mobile top-up in [the Credo Bank mobile app](https://credobank.ge/en/services/internet-mobile-bank).
 
-## 1. Choose "Money in/out" option
+## 1. Choose the "Money in/out" option
 
-After logging in the Credo Bank mobile app, click on "Money in/out".  ![choosing "Money in/out"](./img/step-1.png)
+<section class="section">
+After logging in to the Credo Bank mobile app, click on "Money in/out".  
+<img src="./img/step-1.png" alt="Choosing Money in/out">
+</section>
 
-## 2. Choose "Mobile TopUp" option
+## 2. Choose the "Mobile TopUp" option
 
-In the "Money in/out page", click on "Mobile TopUp".
-![choosing "Mobile TopUp"](./img/step-2.png)
+<section class="section">
+In the "Money in/out" page, click on "Mobile TopUp".
+<img src="./img/step-2.png" alt="Choosing Mobile TopUp">
+</section>
 
 ## 3. Find a necessary mobile number
 
-In the "Mobile TopUp" page", find a necessary mobile number. You can type manually or choose the one from your contacts.
+<section class="section">
+In the "Mobile TopUp" page, find the necessary mobile number. You can type manually or choose one from your contacts. Then, click the "Next" button.
+<img src="./img/step-3.png" alt="Writing a mobile number">
+</section>
 
-Then, click the "Next" button.
+## 4. Write the necessary amount to pay
 
-![writing a mobile number](./img/step-3.png)
-
-## 4. Write a necessary amount to pay
-
-In the checkout page, write a necessary amount in the "Amount to Pay" field.
-
-![writing an amount](./img/step-4.png)
+<section class="section">
+In the checkout page, write the necessary amount in the "Amount to Pay" field.
+<img src="./img/step-4.png" alt="Writing an amount">
+</section>
 
 ## 5. Select a necessary account
 
-Click "Select Account".
+<section class="section">
+Then, in the same page, click "Select Account".
+<img src="./img/step-5.png" alt="Selecting an account">
+</section>
 
-![selecting an account](./img/step-5.png)
+## 6. Choose an account and a currency
 
-## 6. Choouse an account and a currency
-
-In the accounts' page, click on your necessary account. Inside the account option, choose a currency.
-
-![page with your accounts](./img/step-6.png)
+<section class="section">
+In the accounts page, click on your necessary account. Inside the account option, choose a currency.
+<img src="./img/step-6.png" alt="Page with your accounts">
+</section>
 
 ## 7. Make a payment
 
-After choosing the account, you return to the checkout page.
-
-To make a payment, check the data and click the "Pay" button.
-
-![checkout](./img/step-7.png)
+<section class="section">
+After choosing the account, you return to the checkout page. To make a payment, check the data and click the "Pay" button.
+<img src="./img/step-7.png" alt="Making a payment">
+</section>
 
 ## 8. Receive a confirmation
 
+<section class="section">
 After the payment, the confirmation page opens.
-
-![confirmation](./img/step-8.png)
+<img src="./img/step-8.png" alt="Confirmation page">
+</section>
