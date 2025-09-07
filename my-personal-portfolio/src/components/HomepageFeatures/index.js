@@ -4,32 +4,53 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Who am I?',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Hello!<br/>
+My name is Olga Taranukha. Also, feel free to call me Helga :) <br/>
+I am a technical writer with over 5 years of general experience across FinTech, IT, and FMCG industries.<br/>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'My expertise',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        I work with the different types of technical documentation, such as<br/>
+        <ul>
+          <li>Guides</li>
+          <li>Knowledge base documentation</li>
+          <li>Product documentation</li>
+          <li>Tutorials</li>
+          <li>API documentation</li>
+          <li>FAQs</li>
+        </ul>
+        In addition to this, I am aware of Docs-as-Code concept.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Tools',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        In my work, I use such tools as
+        <ul>
+          <li>Markdown</li>
+          <li>Docusaurus</li>
+          <li>Swagger</li>
+          <li>Confluence</li>
+          <li>VS Code</li>
+          <li>Postman</li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    title: 'Contacts',
+    description: (
+      <>
+        Feel free to write me via <a href="https://www.linkedin.com/in/olgataranukha/">Linkedin</a>, <a href="mailto:o.taranukha.work@gmail.com">Email</a>, or <a href="https://github.com/slusimusi">Github</a>.
       </>
     ),
   },
@@ -37,11 +58,8 @@ const FeatureList = [
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
+    <div className={clsx('col col--3')}>
+      <div className="text--left padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </div>
