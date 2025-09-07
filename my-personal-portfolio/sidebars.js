@@ -24,16 +24,16 @@ const sidebars = {
         label: 'Introduction',
       },
       {
-          type: 'category',
-          label: 'Knowledge base documentation',
-          link: {type: 'generated-index'},
-          items: ['knowledge-base-documentation/text-about-git-pull', 'knowledge-base-documentation/text-about-RTK-working'],
-      },
-      {
         type: 'category',
         label: 'Guides',
         link: {type: 'generated-index'},
         items: ['guides/how-to-make-an-online-payment', 'guides/quick-start-guide-in-admitad'],
+      },
+      {
+          type: 'category',
+          label: 'Knowledge base documentation',
+          link: {type: 'generated-index'},
+          items: ['knowledge-base-documentation/text-about-git-pull', 'knowledge-base-documentation/text-about-RTK-working'],
       },
       {
         type: 'category',
