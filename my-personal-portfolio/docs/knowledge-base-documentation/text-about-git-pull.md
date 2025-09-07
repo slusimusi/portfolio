@@ -26,7 +26,7 @@ Finally, `git pull` create a new merge commit.
 - `git pull origin HEAD` – fetches and downloads the current branch without specifying its name explicitly.
 - `git pull --no-commit <remote>` – works like`git pull <remote>`, but skips creating a merge commit.
 - `git pull --rebase <remote>` - works like `git pull --no-commit <remote>`, but uses `git rebase` instead of `git merge`.
-- `git pull --verbose` - displays detailed information about fetched commits and the merge process.
+- `git pull --verbose` - displays detailed information about fetched commits and the merge process.<br/>
 
 :::note
 The year of writing is 2021.
