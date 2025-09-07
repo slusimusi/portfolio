@@ -56,4 +56,6 @@ export default defineConfig({
 6. Generate a report via the command `allure serve allure-results`.
 7. After generating a report, check your browser.
 
-**_NOTE:_** The year of writing is 2025.
+:::note
+The year of writing is 2025.
+:::

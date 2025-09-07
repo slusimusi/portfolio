@@ -32,4 +32,6 @@ If you have any questions or trouble with the extension, you can write me on the
 - email
 - telegram
 
-**_NOTE:_** The year of writing is 2024.
+:::note
+The year of writing is 2024.
+:::

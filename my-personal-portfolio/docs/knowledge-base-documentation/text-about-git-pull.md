@@ -23,4 +23,6 @@ Finally, `git pull` create a new merge commit.
 - `git pull --rebase <remote>` - works like `git pull --no-commit <remote>`, but uses `git rebase` instead of `git merge`.
 - `git pull --verbose` - displays detailed information about fetched commits and the merge process.
 
-**_NOTE:_** The year of writing is 2021.
+:::note
+The year of writing is 2021.
+:::

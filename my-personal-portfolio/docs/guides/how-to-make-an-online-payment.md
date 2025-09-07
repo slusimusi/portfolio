@@ -48,4 +48,6 @@ After choosing the account, you return to the checkout page. To make a payment, 
 After the payment, the confirmation page opens.
 ![Confirmation page](@site/static/img/step-8.png)
 
-**_NOTE:_** The year of writing is 2025.
+:::note
+The year of writing is 2025.
+:::
