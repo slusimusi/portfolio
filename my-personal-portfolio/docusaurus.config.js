@@ -48,6 +48,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          routeBasePath: '/'
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -72,12 +73,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
-          },
-          {
-            href: 'https://github.com/slusimusi',
-            label: 'My GitHub',
-            position: 'right',
+            label: 'Docs samples',
           },
         ],
       },
