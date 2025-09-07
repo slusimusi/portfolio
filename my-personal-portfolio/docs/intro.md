@@ -8,11 +8,12 @@ On this page, you can check my portfolio with the different samples of technical
 ## My expertise
 
 - Knowledge base documentation (Confluence, Wiki)
-- Docs-as-Code concept (Git, Markdown)
 - Guides (user guides, Quick Start guides)
-- Tutorials
 - Product documentation
-- API documentation
+- Tutorials
+- API documentation (Swagger, Postman)
+- Docs-as-Code concept (Git, Markdown)
+- FAQs
 
 ## Contacts
 

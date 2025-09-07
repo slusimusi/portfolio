@@ -1,3 +1,7 @@
+---
+description: Test task for Mercurio company
+---
+
 # How to work with `git pull`
 
 `Git pull` is a command that fetches and download commits from a remote branch into to the local one.

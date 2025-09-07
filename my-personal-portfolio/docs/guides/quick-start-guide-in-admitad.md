@@ -1,4 +1,8 @@
-# Quick Start guide
+---
+description: A part of the test task for Admitad
+---
+
+# Quick Start guide in Admitad
 
 There are many ways to earn money on the Internet. One of these ways is affiliate marketing. Partners receive a reward for a real user action, such as a lead or purchase, brought to the advertiser's website.
 Also, Admitad can help you make money on your Telegram channel. It is pretty handy and easy to use.

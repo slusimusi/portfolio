@@ -1,3 +1,7 @@
+---
+description: Test task for Qameta Software
+---
+
 # How to generate an Allure Report
 
 With this tutorial, you can generate an Allure Report.

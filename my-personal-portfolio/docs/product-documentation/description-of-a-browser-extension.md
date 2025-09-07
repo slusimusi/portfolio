@@ -1,3 +1,7 @@
+---
+description: The text for the Lingua-hover browser extension
+---
+
 # Lingua hover
 
 Translate an unknown word just hovering on it! No clicks, no other information, just one translation.
