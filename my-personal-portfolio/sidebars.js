@@ -50,8 +50,28 @@ const sidebars = {
       {
         type: 'category',
         label: 'API documentation',
-        link: {type: 'generated-index'},
-        items: ['api-documentation/create-a-task', 'api-documentation/update-a-task', 'api-documentation/delete-a-task', 'api-documentation/get-a-task-list'],
+        link: {
+          type: 'doc',
+          id: 'api-documentation/index',
+        },        
+        items: [
+          {
+           type: 'link',
+           label: 'Swagger samples',
+           href: 'https://app.swaggerhub.com/apis/OTARANUKHAWORK/Test_Task_Tracker_API/1.0.0',
+          },
+          {
+            type: 'link',
+            label: 'Postman samples',
+            href: 'https://www.postman.com/olga-2721428/my-workspace/collection/f8tjc9u/task-tracker-api?action=share&source=copy-link&creator=46059434',
+          },
+          {
+            type: 'category',
+            label: 'Docusaurus samples',
+            link: {type: 'generated-index'},
+            items: ['api-documentation/docusaurus-samples/create-a-task', 'api-documentation/docusaurus-samples/update-a-task', 'api-documentation/docusaurus-samples/delete-a-task', 'api-documentation/docusaurus-samples/get-a-task-list']
+          },
+        ]  
       },
   ],
 };

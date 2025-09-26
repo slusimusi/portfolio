@@ -42,3 +42,8 @@ p,
 table {
   margin-top: 20px;
 }
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
