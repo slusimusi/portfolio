@@ -47,6 +47,12 @@ const sidebars = {
         link: {type: 'generated-index'},
         items: ['tutorials/instruction-for-Allure-Report-generation'],
       },
+      {
+        type: 'category',
+        label: 'API documentation',
+        link: {type: 'generated-index'},
+        items: ['api-documentation/create-a-task', 'api-documentation/update-a-task', 'api-documentation/delete-a-task', 'api-documentation/get-a-task-list'],
+      },
   ],
 };
 

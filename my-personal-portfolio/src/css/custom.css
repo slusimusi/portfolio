@@ -38,6 +38,7 @@ h3 {
 
 .theme-admonition,
 h2,
-p {
+p,
+table {
   margin-top: 20px;
 }
