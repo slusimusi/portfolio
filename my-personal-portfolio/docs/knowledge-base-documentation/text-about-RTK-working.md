@@ -2,7 +2,7 @@
 description: Test task for Emlid
 ---
 
-# How RTK works
+# RTK technology
 
 ## Overview
 
