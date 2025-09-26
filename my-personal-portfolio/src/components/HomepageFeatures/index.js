@@ -50,7 +50,7 @@ I am a technical writer with over 5 years of general experience across FinTech, 
     title: 'Contacts',
     description: (
       <>
-        Feel free to write me via <a href="https://www.linkedin.com/in/olgataranukha/">Linkedin</a>, <a href="mailto:o.taranukha.work@gmail.com">Email</a>, or <a href="https://github.com/slusimusi">Github</a>.
+        Feel free to write me via <a href="https://www.linkedin.com/in/olgataranukha/">Linkedin</a>, <a href="mailto:o.taranukha.work@gmail.com">Email</a>, or <a href="https://t.me/OlgaTaranukha">Telegram</a>.
       </>
     ),
   },
