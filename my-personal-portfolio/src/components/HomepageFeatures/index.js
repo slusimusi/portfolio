@@ -56,7 +56,7 @@ I am a technical writer with over 5 years of general experience across FinTech, 
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({title, description}) {
   return (
     <div className={clsx('col col--3')}>
       <div className="text--left padding-horiz--md">
