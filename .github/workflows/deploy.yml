@@ -1,7 +1,7 @@
-name: Deploy Docusaurus to GitHub Pages
+name: Deploy Docusaurus
 on:
   push:
-    branches: [ refactoring-the-portfolio ]
+    branches: [ referefactoring-the-portfolio ] 
 
 jobs:
   deploy:
@@ -18,14 +18,12 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-        working-directory: my-personal-portfolio
 
       - name: Build Docusaurus
         run: npm run build
-        working-directory: my-personal-portfolio
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: my-personal-portfolio/build
+          publish_dir: build
