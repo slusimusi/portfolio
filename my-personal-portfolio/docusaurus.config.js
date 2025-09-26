@@ -29,6 +29,7 @@ const config = {
   baseUrl: '/portfolio/', 
   organizationName: 'slusimusi', // Usually your GitHub org/user name.
   projectName: 'portfolio', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
