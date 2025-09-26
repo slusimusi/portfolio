@@ -6,11 +6,11 @@ Update a Jira task.
 
 ## HTTP request
 
-<ApiBlock method="PUT" link="/update/:id" methodClass="methodBlock methodBlock_put"/>
+<ApiBlock method="PUT" link="/update/{id}" methodClass="methodBlock methodBlock_put"/>
 
 ## Request
 
-### Query parameters
+### Path parameters
 
 | Name | Type | Required | Description |
 | ---- | ---- | -------- | ----------- |

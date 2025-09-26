@@ -10,6 +10,10 @@ Get a list of Jira tasks.
 
 ## Request
 
+### Path parameters
+
+Doesn't require.
+
 ### Body parameters
 
 | Name | Type | Required | Description |

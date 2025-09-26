@@ -6,11 +6,11 @@ Delete a Jira task.
 
 ## HTTP request
 
-<ApiBlock method="DELETE" link="/delete/:id" methodClass="methodBlock methodBlock_delete"/>
+<ApiBlock method="DELETE" link="/delete/{id}" methodClass="methodBlock methodBlock_delete"/>
 
 ## Request
 
-### Query parameters
+### Path parameters
 
 | Name | Type | Required | Description |
 | ---- | ---- | -------- | ----------- |

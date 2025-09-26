@@ -10,6 +10,10 @@ Create a Jira task.
 
 ## Request
 
+### Path parameters
+
+Doesn't require.
+
 ### Body parameters
 
 | Name | Type | Required | Description |
