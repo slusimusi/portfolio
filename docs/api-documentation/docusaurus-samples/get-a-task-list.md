@@ -16,31 +16,7 @@ Doesn't require.
 
 ### Body parameters
 
-| Name | Type | Required | Description |
-| ---- | ---- | -------- | ----------- |
-| filters | object | False | Object with filters |
-
-`filters` object schema:
-
-| Name | Type | Required | Description |
-| ---- | ---- | -------- | ----------- |
-| id | integer | False | Task ID. |
-| title | string | False | Task title. |
-| completed | boolean | False | Task completion status. |
-| limit | integer | False | Number of records to retrieve. By default, 10. The maximum is 100. |
-| offset | integer | False | Records cursor. |
-
-<details>
-<summary>Sample request</summary>
-```json
-{
-  "filters": {
-    "completed": true,
-    "limit": 3
-  }
-}
-```
-</details>
+Doesn't require.
 
 ## Response
 
