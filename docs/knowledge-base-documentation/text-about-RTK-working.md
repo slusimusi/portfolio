@@ -1,4 +1,8 @@
-# How RTK works
+---
+description: Test task for Emlid
+---
+
+# RTK technology
 
 ## Overview
 
@@ -53,4 +57,6 @@ RTK has some usage limitations, such as:
 - [Wikipedia's general article about RTK](https://en.wikipedia.org/wiki/Real-time_kinematic_positioning)
 - [What is GNSS/RTK technology and how does it work? - YouTube](https://www.youtube.com/watch?v=k49sUW7vkY4)
 
-**_NOTE:_** The year of writing is 2025.
+:::note
+The year of writing is 2025.
+:::

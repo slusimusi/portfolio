@@ -1,3 +1,7 @@
+---
+description: The text for the Lingua-hover browser extension
+---
+
 # Lingua hover
 
 Translate an unknown word just hovering on it! No clicks, no other information, just one translation.
@@ -28,4 +32,6 @@ If you have any questions or trouble with the extension, you can write me on the
 - email
 - telegram
 
-**_NOTE:_** The year of writing is 2024.
+:::note
+The year of writing is 2024.
+:::

@@ -1,12 +1,41 @@
-# What in this repository
+# Website
 
-In this repository, you can see some examples of technical documentation written be me.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-## Texts
+## Installation
 
-- [Text about the `git pull` command](./text-about-git-pull.md). This text is a test task for Mercurio company.
-- [Quick Start guide for Admitad](./quick-start-guide-for-admitad.md). The text is a part of the test task for Admitad company.
-- [Description of Lingua Hover extension](./description-of-a-browser-extension.md). I wrote this text for the [extension](https://chromewebstore.google.com/detail/lingua-hover/aalcfhiolhdbomeemcbppffcjjhnchin?hl=en-US&utm_source=ext_sidebar).
-- [Text about working of RTK](./text-about-rtk-working.md). It is a test task for Emlid.
-- [Text about Allure Report generation](./instruction-for-Allure-Report-generation.md). This text is a test task for Qameta Software.
-- [User guide for the process of making an online payment](./how-to-make-an-online-payment.md). This text is a test task for Qameta Software.
+```bash
+yarn
+```
+
+## Local Development
+
+```bash
+yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+## Build
+
+```bash
+yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+## Deployment
+
+Using SSH:
+
+```bash
+USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```bash
+GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

@@ -1,3 +1,7 @@
+---
+description: Test task for Qameta Software
+---
+
 # How to generate an Allure Report
 
 With this tutorial, you can generate an Allure Report.
@@ -52,4 +56,6 @@ export default defineConfig({
 6. Generate a report via the command `allure serve allure-results`.
 7. After generating a report, check your browser.
 
-**_NOTE:_** The year of writing is 2025.
+:::note
+The year of writing is 2025.
+:::

@@ -1,4 +1,10 @@
-# How to work with `git pull`
+---
+description: Test task for Mercurio company
+---
+
+# Git pull command
+
+## Overview
 
 `Git pull` is a command that fetches and download commits from a remote branch into to the local one.
 It combines such comands as:
@@ -9,6 +15,9 @@ It combines such comands as:
 Firstly, the `git fetch` command fetches changes from the server used for the local repository.
 Then, the `git merge` command merges them with the locale branch.
 Finally, `git pull` create a new merge commit.
+
+## Options
+
 `git pull` has several options:
 
 - `git pull origin` – fetches and downloads all branches from the remote repository.
@@ -17,6 +26,8 @@ Finally, `git pull` create a new merge commit.
 - `git pull origin HEAD` – fetches and downloads the current branch without specifying its name explicitly.
 - `git pull --no-commit <remote>` – works like`git pull <remote>`, but skips creating a merge commit.
 - `git pull --rebase <remote>` - works like `git pull --no-commit <remote>`, but uses `git rebase` instead of `git merge`.
-- `git pull --verbose` - displays detailed information about fetched commits and the merge process.
+- `git pull --verbose` - displays detailed information about fetched commits and the merge process.<br/>
 
-**_NOTE:_** The year of writing is 2021.
+:::note
+The year of writing is 2021.
+:::
