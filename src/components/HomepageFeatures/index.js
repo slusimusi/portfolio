@@ -7,9 +7,9 @@ const FeatureList = [
     title: 'Who am I?',
     description: (
       <>
-        Hello!<br/>
-My name is Olga Taranukha. Also, feel free to call me Helga :) <br/>
-I am a technical writer with over 5 years of general experience across FinTech, IT, and FMCG industries.<br/>
+Hi, I'm Olga Taranukha. <br/>
+Technical Writer with a background in Frontend Development and Business Analysis.<br/>
+I don't just write docs. I understand how code works and what users need. With 5+ years in FinTech, IT, and FMCG, I specialize in creating clear, structured documentation for complex systems.
       </>
     ),
   },
@@ -17,8 +17,8 @@ I am a technical writer with over 5 years of general experience across FinTech, 
     title: 'My expertise',
     description: (
       <>
-        I work with the different types of technical documentation, such as<br/>
         <ul>
+          <li>Docs-as-Code approach</li>
           <li>Guides</li>
           <li>Knowledge base documentation</li>
           <li>Product documentation</li>
@@ -26,15 +26,13 @@ I am a technical writer with over 5 years of general experience across FinTech, 
           <li>API documentation</li>
           <li>FAQs</li>
         </ul>
-        In addition to this, I am aware of Docs-as-Code concept.
       </>
     ),
   },
   {
-    title: 'Tools',
+    title: 'Stack',
     description: (
       <>
-        In my work, I use such tools as
         <ul>
           <li>Markdown</li>
           <li>Docusaurus</li>
