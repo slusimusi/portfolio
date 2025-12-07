@@ -4,17 +4,23 @@ description: Test task for Mercurio company
 
 # Git pull command
 
+:::info
+<p>**About this sample**: This article explains how the `git pull` command works.</p>
+<p>**Goal**: Explain the command concepts to a general audience.</p>
+<p>**Result**: The documentation met all requirements.</p>
+<p>**Evolution**: I created the original content as a time-boxed test task in Russian. Later, I translated the text in English and refined it to align with STE principles for better clarity and conciseness.</p>
+:::
+
 ## Overview
 
 `Git pull` is a command that fetches and download commits from a remote branch into to the local one.
-It combines such comands as:
+It combines comands `git fetch` and `git merge`.
 
-- `git fetch`
-- `git merge`
+The general flow is:
 
-Firstly, the `git fetch` command fetches changes from the server used for the local repository.
-Then, the `git merge` command merges them with the locale branch.
-Finally, `git pull` create a new merge commit.
+1. `git fetch` fetches changes from the server used for the local repository.
+1. `git merge` merges them with the locale branch.
+1. `git pull` creates a new merge commit.
 
 ## Options
 

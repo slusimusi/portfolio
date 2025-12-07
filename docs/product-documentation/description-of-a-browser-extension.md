@@ -4,6 +4,11 @@ description: The text for the Lingua-hover browser extension
 
 # Lingua hover
 
+:::info
+<p>**About this sample**: The text demonstrates features of the [Lingua Hover](https://chromewebstore.google.com/detail/lingua-hover/aalcfhiolhdbomeemcbppffcjjhnchin) browser extension.</p>
+<p>**Goal**: Help users choose the browser extension.</p>
+:::
+
 Translate an unknown word just hovering on it! No clicks, no other information, just one translation.
 
 Lingua Hover is an extension designed for easy translation on hover.

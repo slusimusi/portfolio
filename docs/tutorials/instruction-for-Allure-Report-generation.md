@@ -4,6 +4,11 @@ description: Test task for Qameta Software
 
 # How to generate an Allure Report
 
+:::info
+<p>**About this sample**: The tutorial demonstrates a standard installing flow. Similar logic applies to other testing software.</p>
+<p>**Goal**: Help users install Allure and complete generating an Allure Report with zero errors.</p>
+:::
+
 With this tutorial, you can generate an Allure Report.
 
 ## What to install
