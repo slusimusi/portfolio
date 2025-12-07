@@ -4,23 +4,30 @@ description: Test task for Emlid
 
 # RTK technology
 
+:::info
+<p>**About this sample**: This article explains how RTK works and achieves 1-2 cm accuracy.</p>
+<p>**Goal**: Explain complex engineering concepts (physics/radio signals) to a general audience.</p>
+<p>**Result**: The documentation met all requirements.</p>
+<p>**Evolution**: I create the [original content](https://docs.google.com/document/d/197WAqEvZUf9R2FO1xBwUyUwFgT2c5UfQvMRmipjrY0E/edit?usp=sharing) as a time-boxed test task. Later, I refined and edited the text to align with STE principles for better clarity and conciseness.</p>
+:::
+
 ## Overview
 
-Real-Time Kinematic (RTK) is a technology based on the Global Navigation Satellite System (GNSS) with improved accuracy. While standard GNSS receivers have an accuracy of 2-10 meters, RTK devices provide the 1-2 cm one in good condition. RTK lets you find an exact position with additional corrections in real time.
+Real-Time Kinematic (RTK) is a technology based on the Global Navigation Satellite System (GNSS) with improved accuracy. While standard GNSS receivers have an accuracy of 2-10 meters, RTK devices provide 1-2 cm accuracy in good condition. RTK lets you determine precise positioning using real-time corrections.
 
 ## General workflow
 
-The main idea of RTK is the usage of two GNSS receivers called a base and a rover. The base is a stationary receiver and the rover is the movable one. Due to such a feature, RTK resolves atmospheric errors.
+The main idea of RTK is the usage of two GNSS receivers called a base and a rover. The base is a stationary receiver and the rover is the movable one. This setup resolves atmospheric errors.
 A general workflow consists of several steps:
 
-1. the base takes a fixed position with centimetric precision
+1. the base is installed at a fixed location with known coordinates
 1. the base collects the information from satellites
 1. the base calculates the difference between the received positions and its current one
 1. the base passes the corrected information to the rover
 1. the rover collects the correction while moving
 1. the rover calculates the best centimeter precise position
 
-## RTK correction calculating
+## RTK correction calculation
 
 RTK calculates its centimeter accuracy with two phases of calculation:
 
@@ -39,7 +46,7 @@ RTK uses three ways of correction receiving:
 
 NTRIP passes RTK corrections via 3G/4G or Wi-fi coverage. Such a way does not need any additional equipment. However, it depends on the Internet and a local NTRIP provider.
 Radio channels work in UHF/VHF. They do not demand the Internet. The disadvantage is their limited range.
-In RTK networks, reference stations measure satellite signals and calculate errors. Then, they pass the corrections to the rover. The way does not expect to set up their reference or base station but needs a subscription to the RTK network.
+In RTK networks, reference stations measure satellite signals and calculate errors. Then, they pass the corrections to the rover. This method does not require setting up their reference or base station but needs a subscription to the RTK network.
 
 ## Limitations
 

@@ -19,6 +19,7 @@ I don't just write docs. I understand how code works and what users need. With 5
       <>
         <ul>
           <li>Docs-as-Code approach</li>
+          <li>Simplified Technical English (STE)</li>
           <li>Guides</li>
           <li>Knowledge base documentation</li>
           <li>Product documentation</li>
